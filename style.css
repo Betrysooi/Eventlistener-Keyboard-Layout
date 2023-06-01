@@ -1,0 +1,581 @@
+body{
+    height:100vh;
+    width: 100vw;
+    max-width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+#Keyboard{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    height: 40vh;
+    width: 50vw;
+}
+
+#KeyRow1{
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+    height:12%;
+    justify-content: space-between;
+}
+
+#Escape{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F1{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F2{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F3{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F4{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F5{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F6{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F7{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F8{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F9{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F10{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F11{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#F12{
+    background-color: thistle;
+    width:6.5;
+    margin-right:2px;
+}
+
+#prtScr{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#Power{
+    background-color: thistle;
+    width:6.5%;
+    margin-right:2px;
+}
+
+#Delete{
+    background-color: thistle;
+    width:6.5%;
+}
+
+#KeyRow2{
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+    height:16%;
+    margin-top:4.5px;
+    justify-content: space-between;
+}
+
+#Backquote{
+    background-color: thistle;
+    width:5%;
+}
+
+#Digit1{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit2{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit3{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit4{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit5{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit6{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit7{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit8{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit9{
+    background-color: thistle;
+    width:6%;
+}
+
+#Digit0{
+    background-color: thistle;
+    width:6%;
+}
+
+#Minus{
+    background-color: thistle;
+    width:6%;
+}
+
+#Equal{
+    background-color: thistle;
+    width:6%;
+}
+
+#Backspace{
+    background-color: thistle;
+    width:13%;
+}
+
+#Home{
+    background-color: thistle;
+    width:6ch;
+}
+
+#KeyRow3{
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+    height:16%;
+    margin-top:4.5px;
+}
+
+#Tab{
+    background-color: thistle;
+    width:9%;
+    margin-right:2px;
+}
+
+#KeyQ{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyW{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyE{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyR{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyT{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyY{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyU{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyI{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyO{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyP{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#BracketLeft{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#BracketRight{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#Enter{
+    background-color: thistle;
+    width:10%;
+    height:210%;
+    margin-right:2px;
+}
+
+#PageUp{
+    background-color: thistle;
+    width:6%;
+}
+
+#KeyRow4{
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+    height:16%;
+    margin-top:4.5px;
+}
+
+#CapsLock{
+    background-color: thistle;
+    width:11%;
+    margin-right:2px;
+}
+
+#KeyA{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyS{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyD{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyF{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyG{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyH{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyJ{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyK{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyL{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#Semicolon{
+    background-color: thistle;
+    width:5.8%;
+    margin-right:2px;
+}
+
+#Quote{
+    background-color: thistle;
+    width:5.8%;
+    margin-right:2px;
+}
+
+#Backslash{
+    background-color: thistle;
+    width:6%;
+}
+
+#blank{
+    background-color: bisque;
+    width:2px;
+}
+
+#PageDown{
+    background-color: thistle;
+    width:6%;
+    position:relative;
+    left:62px;
+}
+
+#KeyRow5{
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+    height:16%;
+    margin-top:4.5px;
+}
+
+#ShiftLeft{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#IntlBackslash{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyZ{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyX{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyC{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyV{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyB{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyN{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#KeyM{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#Comma{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#Period{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#Slash{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#ShiftRight{
+    background-color: thistle;
+    width:20%;
+    margin-right:2px;
+}
+
+#End{
+    background-color: thistle;
+    width:6%;
+}
+
+#KeyRow6{
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+    height:16%;
+    margin-top:4.5px;
+}
+
+#ControlLeft{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#Fn{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#MetaLeft{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#AltLeft{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#Space{
+    background-color: thistle;
+    width:40%;
+    margin-right:2px;
+}
+
+#AltRight{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#ContextMenu{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#ControlRight{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+}
+
+#ArrowLeft{
+    background-color: thistle;
+    width:6%;
+    margin-right:2px;
+    text-align: center;
+}
+
+#twoKeys{
+    flex-direction: column;
+    display:flex;
+    width:6%;
+    margin-right:2px;
+}
+
+#ArrowUp{
+    background-color: thistle;
+    height:48%;
+    width:100%;
+    margin-right:4.5px;
+}
+
+#ArrowDown{
+    background-color: thistle;
+    height:48%;
+    width:100%;
+    margin:2px 4.5px 0 0;
+}
+
+#ArrowRight{
+    background-color: thistle;
+    width:6%;
+    text-align: center;
+}
+
+
